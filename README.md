@@ -6,23 +6,23 @@
 
 1. [Chức năng](#chức-năng)
 
-   1. [Đăng nhập / Đăng kí](#đăng-nhập-/-đăng-kí)
+   1. [Đăng nhập](#đăng-nhập)
 
    1. [Xem Danh sách phim](#Xem-danh-sách-phim)
    
-   1. [Xem chi tiết phim](#xem-show-ca-sĩ-yêu-thích)
+   1. [Xem chi tiết phim](#xem-chi-tiết-phim)
 
-   1. [Chọn lịch chiếu phim](#tìm-kiếm-show-diễn)
+   1. [Chọn lịch chiếu phim](#Chọn-lịch-chiếu-phim)
    
-   1. [Chọn hàng ghế mình mong muốn và số lượng ghế](#xem-lịch-diễn-các-show-trong-tháng)
+   1. [Chọn hàng ghế mình mong muốn và số lượng ghế](#Chọn-hàng-ghế-mình-mong-muốn-và-số-lượng-ghế)
 
-   1. [Mua các món ăn đi kèm](#xem-show-diễn,-ca-sĩ-yêu-thích)
+   1. [Mua các món ăn đi kèm](#Mua-các-món-ăn-đi-kèm)
 
-   1. [Xác nhận thông tin](#xem-thông-tin-tài-khoản)
+   1. [Xác nhận thông tin](#Xác-nhận-thông-tin)
 
-   1. [Đặt mua vé](#xem-thông-tin-tài-khoản)
+   1. [Đặt mua vé](#Đặt-mua-vé)
 
-   1. [Xem thông tin vé đã mua](#xem-thông-tin-tài-khoản)
+   1. [Xem thông tin vé đã mua](#Xem-thông-tin-vé-đã-mua)
    
 1. [Yêu cầu thiết bị](#yêu-cầu-thiết-bị)
 
@@ -33,7 +33,7 @@
 1. [Giấy phép](#giấy-phép)
 
 ## Chức năng
-### Đăng nhập / Đăng kí
+### Đăng nhập
    * Đăng nhập
   
    * Đăng kí
@@ -99,13 +99,40 @@
    <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/register.png" height = "480" width="270">
    </p>
    
-This project is a starting point for a Flutter application.
+## Yêu cầu thiết bị
+-Android:
 
-A few resources to get you started if this is your first Flutter project:
+   +Android studio : 3.0.1
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+   +Gradle : 4.1
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   +Min sdk : 19
+
+   +Target sdk : 26
+
+-iOS:
+
+   +iOS: 8.0
+## Thư viện và công nghệ
+
+- Language : Javascript
+
+- FrameWork : Flutter 0.0.4
+
+- Database: mongoDB
+
+* provider - https://pub.dev/packages/provider
+
+* cupertino_icons - https://pub.dev/packages/cupertino_icons
+
+* http - https://pub.dev/packages/http
+
+* shared_preferences - https://pub.dev/packages/shared_preferences
+
+
+## Tác giả
+Nguyễn Ngọc Thanh Long - 17520714@gm.uit.edu.vn
+
+Đoàn Anh Tú - 17521194@gm.uit.edu.vn
+
+Đỗ Quang Thiện - 17521073@gm.uit.edu.vn
