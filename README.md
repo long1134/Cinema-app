@@ -8,7 +8,7 @@
 
    1. [Đăng nhập / Đăng kí](#đăng-nhập-/-đăng-kí)
 
-   1. [Xem Danh sách phim](#xem-show-diễn-hot)
+   1. [Xem Danh sách phim](#Xem-danh-sách-phim)
    
    1. [Xem chi tiết phim](#xem-show-ca-sĩ-yêu-thích)
 
