@@ -121,6 +121,8 @@
 
 - Database: mongoDB
 
+- Backend: Nodejs, express.js
+
 * provider - https://pub.dev/packages/provider
 
 * cupertino_icons - https://pub.dev/packages/cupertino_icons
