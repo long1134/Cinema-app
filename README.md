@@ -35,11 +35,9 @@
 ## Chức năng
 ### Đăng nhập
    * Đăng nhập
-  
-   * Đăng kí
    
    <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/register.png" height = "480" width="270">
+   <img src="screenshots/login.png" height = "480" width="270"> 
    </p>
    
    ### Xem Danh sách phim
