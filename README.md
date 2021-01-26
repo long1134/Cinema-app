@@ -14,15 +14,17 @@
 
    1. [Chọn lịch chiếu phim](#Chọn-lịch-chiếu-phim)
    
-   1. [Chọn hàng ghế mình mong muốn và số lượng ghế](#Chọn-hàng-ghế-mình-mong-muốn-và-số-lượng-ghế)
-
+   1. [Chọn loại ghế và số lượng ghế](#Chọn-loại-ghế-và-số-lượng-ghế)
+   
    1. [Mua các món ăn đi kèm](#Mua-các-món-ăn-đi-kèm)
+   
+   1. [Chọn loại vị trí ghế](#Chọn-vị-trí-ghế)
 
    1. [Xác nhận thông tin](#Xác-nhận-thông-tin)
 
-   1. [Đặt mua vé](#Đặt-mua-vé)
-
    1. [Xem thông tin vé đã mua](#Xem-thông-tin-vé-đã-mua)
+
+   1. [Thông tin chi tiết vé ](#Thông-tin-chi-tiết-vé)
    
 1. [Yêu cầu thiết bị](#yêu-cầu-thiết-bị)
 
@@ -40,6 +42,13 @@
    <img src="screenshots/login.png" height = "480" width="270"> 
    </p>
    
+### Đăng ký
+   * Đăng ký
+   
+   <p align="center">
+   <img src="screenshots/login.png" height = "480" width="270"> 
+   </p>
+   
    ### Xem Danh sách phim
    * Thông tin phim đang chiếu và thông tin phim sắp chiếu
      
@@ -51,7 +60,7 @@
    * Xem chi tiết thông tin phim
    
    <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/register.png" height = "480" width="270">
+   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/film_detail.png" height = "480" width="270">
    </p>
  
 
@@ -59,42 +68,50 @@
    * Chọn lịch chiếu phim theo các rạp mình mong muốn
    
    <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/register.png" height = "480" width="270">
+   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/showtime.png" height = "480" width="270">
    </p>
    
-### Chọn hàng ghế mình và số lượng ghế
+### Chọn loại ghế và số lượng ghế
    * Chọn hàng ghế mình mong muốn và số lượng ghế theo nhu cầu của mình
    
    <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/register.png" height = "480" width="270">
+   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/tickets.png" height = "480" width="270">
    </p>
+  
       
 ### Mua các món ăn đi kèm
    * Chọn mua các sản phẩm đồ ăn đi kèm
    
    <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/register.png" height = "480" width="270">
+   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/combo.png" height = "480" width="270">
+   </p>
+  
+   
+### Chọn vị trí ghế
+   <p align="center">
+   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/sheet.png" height = "480" width="270">
    </p>
          
 ### Xác nhận thông tin
    * Xác nhận thông tin đơn hàng của mình
    
    <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/register.png" height = "480" width="270">
-   </p>
-   
-### Đặt mua vé
-   * Đặt mua vé
-   
-   <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/register.png" height = "480" width="270">
+   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/checkout.png" height = "480" width="270">
    </p>
       
 ### Xem thông tin vé đã mua
    * Xem thông tin vé đã mua trong đó có mã QR code giúp cho việc nhận vé ở quầy lễ tân dễ dàng hơn
    
    <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/register.png" height = "480" width="270">
+   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/list_ticket.png" height = "480" width="270">
+   </p>
+  
+   
+### Thông tin chi tiết vé
+   * Thông tin chi tiết vé
+   
+   <p align="center">
+   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/ticket_detail.png" height = "480" width="270">
    </p>
    
 ## Yêu cầu thiết bị
