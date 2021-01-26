@@ -46,21 +46,21 @@
    * Đăng ký
    
    <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> 
+   <img src="screenshots/register.png" height = "480" width="270"> 
    </p>
    
    ### Xem Danh sách phim
    * Thông tin phim đang chiếu và thông tin phim sắp chiếu
      
    <p align="center">
-   <img src="screenshots/singer.png" height = "480" width="270"> <img src="screenshots/list.png" height = "480" width="270">
+    <img src="screenshots/list.png" height = "480" width="270">
    </p>
 
 ### Xem chi tiết phim
    * Xem chi tiết thông tin phim
    
    <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/film_detail.png" height = "480" width="270">
+    <img src="screenshots/film_detail.png" height = "480" width="270">
    </p>
  
 
@@ -68,14 +68,14 @@
    * Chọn lịch chiếu phim theo các rạp mình mong muốn
    
    <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/showtime.png" height = "480" width="270">
+    <img src="screenshots/showtime.png" height = "480" width="270">
    </p>
    
 ### Chọn loại ghế và số lượng ghế
    * Chọn hàng ghế mình mong muốn và số lượng ghế theo nhu cầu của mình
    
    <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/tickets.png" height = "480" width="270">
+    <img src="screenshots/tickets.png" height = "480" width="270">
    </p>
   
       
@@ -83,27 +83,27 @@
    * Chọn mua các sản phẩm đồ ăn đi kèm
    
    <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/combo.png" height = "480" width="270">
+   <img src="screenshots/combo.png" height = "480" width="270">
    </p>
   
    
 ### Chọn vị trí ghế
    <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/sheet.png" height = "480" width="270">
+   <img src="screenshots/sheet.png" height = "480" width="270">
    </p>
          
 ### Xác nhận thông tin
    * Xác nhận thông tin đơn hàng của mình
    
    <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/checkout.png" height = "480" width="270">
+    <img src="screenshots/checkout.png" height = "480" width="270">
    </p>
       
 ### Xem thông tin vé đã mua
    * Xem thông tin vé đã mua trong đó có mã QR code giúp cho việc nhận vé ở quầy lễ tân dễ dàng hơn
    
    <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/list_ticket.png" height = "480" width="270">
+   <img src="screenshots/list_ticket.png" height = "480" width="270">
    </p>
   
    
@@ -111,7 +111,7 @@
    * Thông tin chi tiết vé
    
    <p align="center">
-   <img src="screenshots/login.png" height = "480" width="270"> <img src="screenshots/ticket_detail.png" height = "480" width="270">
+  <img src="screenshots/ticket_detail.png" height = "480" width="270">
    </p>
    
 ## Yêu cầu thiết bị
