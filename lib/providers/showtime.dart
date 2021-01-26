@@ -46,7 +46,7 @@ class Showtime with ChangeNotifier {
   ShowtimeItem tempShowtime;
   List<String> tempList = [];
 
-  String time = "2019/10/30";
+  String time = "2021/1/26";
   String idChose;
 
   ShowtimeItem getById(String id) {
@@ -129,6 +129,7 @@ class Showtime with ChangeNotifier {
         ),
       );
       final data = json.decode(response.body) as List<dynamic>;
+      print(time);
       List<ShowtimeItem> temp = [];
       data.forEach(
         (film) {

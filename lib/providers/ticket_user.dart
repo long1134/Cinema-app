@@ -36,7 +36,7 @@ class TicketUser with ChangeNotifier {
     return _items;
   }
 
-  void initUserTicket() async {
+  Future<void> initUserTicket() async {
     SharedPreferences preferences = await SharedPreferences.getInstance();
     final extractedData = await json.decode(preferences.getString('userData'))
         as Map<String, Object>;
@@ -65,7 +65,7 @@ class TicketUser with ChangeNotifier {
         img: i["img"],
       ));
     }
-    print(_items);
+    print('_items' + _items.toString());
     notifyListeners();
   }
 

@@ -11,9 +11,22 @@ class TicketsUserScreen extends StatefulWidget {
 }
 
 class _TicketsUserScreenState extends State<TicketsUserScreen> {
+  bool isLoading = true;
+
   @override
   void didChangeDependencies() {
-    Provider.of<TicketUser>(context).initUserTicket();
+    Provider.of<TicketUser>(context)
+        .initUserTicket()
+        .then((value) => {
+              setState(() {
+                isLoading = false;
+              })
+            })
+        .catchError((onError) {
+      setState(() {
+        isLoading = false;
+      });
+    });
     super.didChangeDependencies();
   }
 
@@ -32,17 +45,28 @@ class _TicketsUserScreenState extends State<TicketsUserScreen> {
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
         color: Color.fromRGBO(24, 24, 40, 1),
-        child: ticketUser.items.length == 0
+        child: isLoading
             ? Center(
                 child: CircularProgressIndicator(),
               )
-            : ListView.builder(
-                itemCount: ticketUser.items.length,
-                itemBuilder: (ctx, i) {
-                  return Container(
-                      child: UserTicketItemWidget(ticketUser.items[i]));
-                },
-              ),
+            : ticketUser.items.length == 0
+                ? Container(
+                    child: Text(
+                      "Your don't have ticket",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  )
+                : ListView.builder(
+                    itemCount: ticketUser.items.length,
+                    itemBuilder: (ctx, i) {
+                      return Container(
+                          child: UserTicketItemWidget(ticketUser.items[i]));
+                    },
+                  ),
       ),
     );
   }

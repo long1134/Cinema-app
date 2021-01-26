@@ -12,6 +12,7 @@ import 'package:cinema_app/screens/film_detail.dart';
 import 'package:cinema_app/screens/film_map_seat.dart';
 import 'package:cinema_app/screens/film_overview.dart';
 import 'package:cinema_app/screens/login.dart';
+import 'package:cinema_app/screens/sign_up.dart';
 import 'package:cinema_app/screens/ticket_book_success.dart';
 import 'package:cinema_app/screens/ticket_detail.dart';
 import 'package:cinema_app/screens/ticket_user_detail.dart';
@@ -82,6 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
           TicketsUserScreen.routeName: (ctx) => TicketsUserScreen(),
           TicketUserDetail.routeName: (ctx) => TicketUserDetail(),
           LoginScreen.routeName: (ctx) => LoginScreen(),
+          SignUpScreen.routeName: (ctx) => SignUpScreen(),
           TicketBookSuccessScreen.routeName: (ctx) => TicketBookSuccessScreen(),
         },
       ),

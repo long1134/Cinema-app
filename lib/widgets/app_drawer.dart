@@ -1,5 +1,6 @@
 import 'package:cinema_app/providers/auth.dart';
 import 'package:cinema_app/screens/login.dart';
+import 'package:cinema_app/screens/sign_up.dart';
 import 'package:cinema_app/screens/tickets_user.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -63,17 +64,40 @@ class AppDrawer extends StatelessWidget {
                       ),
                     ],
                   )
-                : GestureDetector(
-                    onTap: () {
-                      Navigator.pushNamed(context, LoginScreen.routeName);
-                    },
-                    child: Container(
-                      height: 40,
-                      child: Text(
-                        "Đăng Nhập",
-                        style: TextStyle(color: Colors.white, fontSize: 15),
+                : Column(
+                    children: <Widget>[
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.pushNamed(context, SignUpScreen.routeName);
+                        },
+                        child: Container(
+                          height: 40,
+                          child: Text(
+                            "Đăng ký",
+                            style: TextStyle(color: Colors.white, fontSize: 15),
+                          ),
+                        ),
                       ),
-                    ),
+                      Divider(
+                        height: 2,
+                        color: Color.fromRGBO(113, 113, 113, 1),
+                      ),
+                      SizedBox(
+                        height: 15,
+                      ),
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.pushNamed(context, LoginScreen.routeName);
+                        },
+                        child: Container(
+                          height: 40,
+                          child: Text(
+                            "Đăng Nhập",
+                            style: TextStyle(color: Colors.white, fontSize: 15),
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
             Divider(
               height: 2,

@@ -21,7 +21,7 @@ class _FilmBookingScreenState extends State<FilmBookingScreen> {
     if (Provider.of<Showtime>(context).items.length == 0) {
       final filmtId = ModalRoute.of(context).settings.arguments as String;
       Provider.of<Showtime>(context)
-          .initShowtime(filmtId, "2019/10/30")
+          .initShowtime(filmtId, "2021/1/26")
           .then((_) {
         setState(() {});
       });
@@ -68,10 +68,10 @@ class _FilmBookingScreenState extends State<FilmBookingScreen> {
                               initIndexDate = index;
                             });
                             var dateSelected =
-                                new DateTime(2019, 10, 30 + index).day;
+                                new DateTime(2021, 1, 26 + index).day;
                             var monthSelected =
-                                new DateTime(2019, 10, 30 + index).month;
-                            var temp = "2019/" +
+                                new DateTime(2021, 1, 26 + index).month;
+                            var temp = "2021/" +
                                 monthSelected.toString() +
                                 "/" +
                                 dateSelected.toString();

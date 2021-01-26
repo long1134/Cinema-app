@@ -57,4 +57,36 @@ class Auth with ChangeNotifier {
     preferences.setString('userData', userData);
     print(json.decode(response.body));
   }
+
+  Future<http.Response> register(String username, String password, String email,
+      String address, String name, String phone) async {
+    const url = "https://long-cinema-app.herokuapp.com/api/quest/members";
+    print(json.encode(
+      {
+        'username': username,
+        'password': password,
+        'phone': phone,
+        'address': address,
+        'name': name,
+        'email': email
+      },
+    ));
+    final response = await http.post(
+      url,
+      headers: {"Content-Type": "application/json"},
+      body: json.encode(
+        {
+          'username': username,
+          'password': password,
+          'phone': phone,
+          'address': address,
+          'name': name,
+          'birth': '21/1/7',
+          'email': email
+        },
+      ),
+    );
+    print(json.decode(response.body));
+    return response;
+  }
 }
