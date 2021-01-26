@@ -6,7 +6,7 @@
 
 1. [Chức năng](#chức-năng)
 
-   1. [Đăng nhập](#đăng-nhập)
+   1. [Đăng nhập](#đăng-nhập)/[Đăng Ký](#đăng-ký)
 
    1. [Xem Danh sách phim](#Xem-danh-sách-phim)
    
